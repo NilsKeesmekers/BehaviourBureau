@@ -1,7 +1,7 @@
  .u-section-1 {
   background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/landing_BG.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/landing_BG.jpg');
   background-size: cover, cover;
 }
 
@@ -87,6 +87,18 @@
   .u-section-2 .u-text-1 {
     margin-top: 97px;
   }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 217px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-top: 31px;
+    margin-bottom: 31px;
+  }
 }.u-section-3 .u-sheet-1 {
   min-height: 1015px;
 }
@@ -121,7 +133,7 @@
 .u-section-3 .u-image-1 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-4.jpg");
+  background-image: url("/images/uifaces-human-avatar-4.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -164,7 +176,7 @@
 .u-section-3 .u-image-2 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-3.jpg");
+  background-image: url("/images/uifaces-human-avatar-3.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -208,7 +220,7 @@
 .u-section-3 .u-image-3 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-12.jpg");
+  background-image: url("/images/uifaces-human-avatar-12.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -252,7 +264,7 @@
 .u-section-3 .u-image-4 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-2.jpg");
+  background-image: url("/images/uifaces-human-avatar-2.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -296,7 +308,7 @@
 .u-section-3 .u-image-5 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-6.jpg");
+  background-image: url("/images/uifaces-human-avatar-6.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -340,7 +352,7 @@
 .u-section-3 .u-image-6 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-11.jpg");
+  background-image: url("/images/uifaces-human-avatar-11.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -384,7 +396,7 @@
 .u-section-3 .u-image-7 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-9.jpg");
+  background-image: url("/images/uifaces-human-avatar-9.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -428,7 +440,7 @@
 .u-section-3 .u-image-8 {
   width: 155px;
   height: 155px;
-  background-image: url("images/uifaces-human-avatar-8.jpg");
+  background-image: url("/images/uifaces-human-avatar-8.jpg");
   background-position: 50% 50%;
   margin: 0 23px 0 auto;
 }
@@ -594,6 +606,38 @@
 @media (max-width: 575px) {
   .u-section-3 .u-list-1 {
     margin-top: 101px;
+  }
+
+  .u-section-3 .u-image-1 {
+    margin-right: auto;
+  }
+
+  .u-section-3 .u-image-2 {
+    margin-right: auto;
+  }
+
+  .u-section-3 .u-image-3 {
+    margin-right: auto;
+  }
+
+  .u-section-3 .u-image-4 {
+    margin-right: auto;
+  }
+
+  .u-section-3 .u-image-5 {
+    margin-right: auto;
+  }
+
+  .u-section-3 .u-image-6 {
+    margin-right: auto;
+  }
+
+  .u-section-3 .u-image-7 {
+    margin-right: auto;
+  }
+
+  .u-section-3 .u-image-8 {
+    margin-right: auto;
   }
 } .u-section-4 {
   background-image: none;
@@ -807,7 +851,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 585px;
+    min-height: 1151px;
   }
 
   .u-section-4 .u-text-1 {
@@ -815,7 +859,7 @@
   }
 
   .u-section-4 .u-list-1 {
-    margin-top: 141px;
+    margin-top: 30px;
     margin-right: initial;
     margin-left: initial;
   }

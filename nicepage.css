@@ -48844,6 +48844,7 @@ a.u-link.u-text-hover-color-var.hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-link-2 {
@@ -48858,10 +48859,6 @@ a.u-link.u-text-hover-color-var.hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -47px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
   }
 }
 
@@ -48900,7 +48897,8 @@ a.u-link.u-text-hover-color-var.hover {
   }
 
   .u-footer .u-text-1 {
-    width: 340px;
+    width: auto;
+    margin: 7px 0;
   }
 }
 
