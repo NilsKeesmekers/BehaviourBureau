@@ -48349,6 +48349,7 @@ a.u-link.u-text-hover-color-var.hover {
         
         
         
+        
         }
 
         /** common-rules **/
@@ -48487,6 +48488,7 @@ a.u-link.u-text-hover-color-var.hover {
         {
         border-width: 1px;
         borders: top right bottom left;
+        border-radius: 44px;
         }
         /** common-rules **/
 
@@ -48842,6 +48844,12 @@ a.u-link.u-text-hover-color-var.hover {
   margin: -47px auto 40px;
 }
 
+.u-header .u-hamburger-link-1 {
+  font-size: calc(1em + 15.2773px);
+  background-image: none;
+  padding: 5px 0;
+}
+
 .u-header .u-nav-1 {
   font-size: 1rem;
   letter-spacing: normal;
@@ -48863,7 +48871,17 @@ a.u-link.u-text-hover-color-var.hover {
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    margin-top: 31px;
+  }
 
+  .u-header .u-menu-1 {
+    margin-top: -50px;
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+}
  .u-footer {
   background-image: none;
 }
